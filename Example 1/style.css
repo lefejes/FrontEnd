@@ -1,0 +1,69 @@
+.container-fluid {
+  padding: 80px 0px;
+}
+
+.navbar {
+  position: sticky;
+}
+
+:target:before {
+content:"";
+display:block;
+height:90px; /* fixed header height*/
+margin:-90px 0 0; /* negative fixed header height */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.side_sub_con1 {
+  padding: 75px 100px 0px 100px;
+}
+
+.con1_img {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.con2_header {
+  padding: 0px 50px 50px 50px;
+}
+
+.card-deck {
+  width: 75%;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.card-text {
+  margin: 10px 25px;
+}
+
+.crd-btn {
+  margin: 10px 25px;
+}
+
+.crd_img {
+  height: 325px;
+}
+
+.contact_info {
+  padding-top: 75px;
+}
+
+.contact_fa {
+  width: 30px;
+}
+
+.form-row {
+  padding-top: 25px;
+}
+
+.send_msg {
+  margin-top: 10px;
+}
