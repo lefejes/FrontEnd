@@ -1,0 +1,166 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8;
+  color: #777;
+}
+
+.bg_img1, .bg_img2, .bg_img3, .bg_img4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_img1 {
+  background-image: url(https://static.pexels.com/photos/297642/pexels-photo-297642.jpeg);
+  min-height: 100%;
+}
+
+.bg_img2 {
+  background-image: url(https://static.pexels.com/photos/534150/pexels-photo-534150.jpeg);
+  min-height: 800px;
+}
+
+.bg_img3 {
+  background-image: url(https://static.pexels.com/photos/167706/pexels-photo-167706.jpeg);
+  min-height: 800px;
+}
+
+.bg_img4 {
+  background-image: url(https://static.pexels.com/photos/297755/pexels-photo-297755.jpeg);
+  min-height: 100%;
+}
+
+.header {
+  padding-top: 250px;
+  width: 75%;
+}
+
+.header h1 {
+  color: black;
+  font-size: 575%;
+}
+
+.header h2 {
+  font-family: Lobster;
+  color: black;
+  font-size: 350%;
+}
+
+.sec2_content {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: left;
+  padding-left: 100px;
+  color: black;
+}
+
+#accordion {
+  margin-top: 50px;
+}
+
+.card {
+    background-color:  #FFF8DC;;
+    cursor: pointer;
+    width: 40%;
+    border-color: #F5DEB3;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.acc_coll {
+  color: #61300D;
+}
+
+.card-body {
+  color: #483D8B;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption > .border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  width: 50%;
+  display: inline-block;
+}
+
+.sec1 {
+  color: #777;
+  background-color: white;
+  text-align: justify;
+  padding: 100px;
+}
+
+.sec1_content {
+  margin: 50px 0px 0px 0px;
+}
+
+.sub_con1 {
+  padding: 0px 35px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px;
+  color: #111;
+  text-align: center;
+}
+
+.cont_block{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  padding-top: 200px;
+}
+
+.blockquote-footer {
+  color: white;
+  text-align: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.modal {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fa {
+  padding: 0px 10px;
+}
+
+.footer_sec {
+  text-align: center;
+  height: 50px;
+  padding: 15px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bg_img1, .bg_img2, .bg_img3 {
+    background-attachment: scroll;
+  }
+}
